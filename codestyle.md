@@ -1,4 +1,6 @@
 # Naming
+- 总的来说首字母大小写决定了变量、类型、函数等的可见性，大写表示exported包外可见，小写表示unexported包内可见。
+- 这种大小写决定可见性编译规则简化了如Java中的public、private等关键字。
 ## Package Names
 - Use lowercase for package names.
 ## File Names
