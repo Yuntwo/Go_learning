@@ -29,3 +29,7 @@
 
 [https://google.github.io/styleguide/go/decisions#naming](https://google.github.io/styleguide/go/decisions#naming)
 
+# Testing
+- 测试文件名以`_test.go`结尾，强制性的，否则不会被识别为测试文件
+- 测试函数名不是强制性的，常见规范是`TestXxx`(单元测试)，`BenchmarkXxx`(性能测试)，`ExampleXxx`(使用示例)
+- 单元测试通常指针对代码中最小的可测试单元(如函数或方法)进行的测试，目的是验证其功能是否符合预期。虽然理想情况下单元测试应独立于其他函数，但在实际中，可能会调用其他函数或依赖外部资源
