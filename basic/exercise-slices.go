@@ -1,4 +1,4 @@
-package main
+package basic
 
 func Pic(dx, dy int) [][]uint8 {
 	pict := make([][]uint8, dy)

@@ -1,4 +1,4 @@
-package main
+package basic
 
 const (
 	i = 1 << iota
