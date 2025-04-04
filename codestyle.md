@@ -20,7 +20,7 @@
 - `for condition { }` 实现While循环
 - `for { }` 实现无限循环
 # 括号
-- 循环条件、case条件、select条件等等都不需要括号
+- 循环条件、if条件、case条件、select条件等等都不需要圆括号，这与Java等语言不同
 # 类型
 - 一般是名称在前，类型在后，如`var a int`
 
