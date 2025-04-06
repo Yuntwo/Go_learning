@@ -10,10 +10,6 @@ type F interface {
 	f()
 }
 
-type A struct {
-	x int
-}
-
 func (a A) f() {
 }
 
